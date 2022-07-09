@@ -160,7 +160,7 @@ h2{
 
 .their-lives{
   display: flex;
-  margin: 150px 150px;
+  margin: 150px 150px 100px 150px;
 }
 
 .lives-text{
@@ -208,4 +208,16 @@ h2{
 .second-button:hover{
   color: gray;
   box-shadow: 15px 15px 30px gray;
+}
+
+                           /* They need us to suvive */
+
+.they-need-us{
+  margin-top: 10px;
+}    
+
+.their-text{
+  width: 50%;
+  height: 525px;
+  padding-left: 60px;
 }
