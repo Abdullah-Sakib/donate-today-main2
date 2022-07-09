@@ -86,7 +86,7 @@
   color: tomato;
 }
 
-.donate-today h2{
+h2{
   padding-top: 100px;
   font-size: 50px;
 }
@@ -108,4 +108,49 @@
   border-bottom: 1px solid gray;
   text-align: center;
   font-size: 18px;
+}
+
+                          /* Our Donation Plan section */
+
+.donation-plan{
+  text-align: center;
+}
+
+.donation-plan p{
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 50px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 340px;
+  height: 340px;
+  margin: 0 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 45px 20px 30px 35px;
+}
+
+.card h3{
+  margin-top: 23px;
+  font-size: 25px;
+}
+
+#card1{
+  background-color: #e2fdffdf;
+}
+
+#card2{
+  background-color: #fde3e3e3;
+}
+
+#card3{
+  background-color: #fff4d6d8 ;
 }
