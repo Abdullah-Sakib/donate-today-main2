@@ -309,4 +309,54 @@ h2{
   color: white;
 }
 
+                         /* Get my update section */
 
+.get-my-update{
+  text-align: center;
+}
+
+form{
+  width: 750px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 300px;
+  background-color: rgba(255, 228, 196, 0.867);
+}
+
+input[type="email"]{
+  width: 250px;
+  height: 42px;
+  border: none;
+  background-color: #c5c4c4d4;
+  border-radius: 5px 0 0 5px;
+  padding: 1px 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+button[type="submit"]{
+  height: 42px;
+  width: 150px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #fe4b4b;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover{
+  color: rgb(185, 185, 185);
+}
+
+
+.get-my-update p{
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 40px;
+  font-weight: 100;
+  margin-top: 20px;
+}
